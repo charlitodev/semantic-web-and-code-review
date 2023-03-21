@@ -17,12 +17,7 @@ const RankingMedia = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div
-        style={{
-          backgroundImage:
-            "https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30",
-        }}
-      >
+      <div>
         <img
           src="https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30"
           alt="sample"

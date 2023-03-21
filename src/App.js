@@ -10,7 +10,6 @@ function App() {
       <TrendIndex />
       <RankingIndex />
       <PopularMedia />
-
       <Footer />
     </div>
   );

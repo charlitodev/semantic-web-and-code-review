@@ -17,13 +17,7 @@ const TrendMedia = () => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div
-        className="img"
-        style={{
-          backgroundImage:
-            "https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30",
-        }}
-      >
+      <div className="img">
         <img
           className={`${isHovered && `card__hover`}`}
           src="https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30"
