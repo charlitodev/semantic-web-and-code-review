@@ -2,14 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div
-      className="hero"
-      style={{
-        backgroundImage: `linear-gradient(to top, rgb(20, 20, 20) 0%, transparent 100%), url(https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30)`,
-        backgroundSize: "cover",
-        backgroundBlendMode: "darken",
-      }}
-    >
+    <div className="hero">
       <div className="hero__container">
         <h1>Downtown Abbey</h1>
         <p>No. 5 in Movies Today</p>

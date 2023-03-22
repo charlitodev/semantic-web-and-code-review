@@ -1,5 +1,6 @@
 import { Navbar, Footer } from "./components";
 import { Hero, TrendIndex, RankingIndex, PopularMedia } from "./views";
+
 import "./assets/styles/styles.css";
 
 function App() {
