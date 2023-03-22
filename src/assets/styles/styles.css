@@ -71,6 +71,14 @@ body {
 /* ************************************** */
 
 .hero {
+  background-image: linear-gradient(
+      to top,
+      rgb(20, 20, 20) 0%,
+      transparent 100%
+    ),
+    url("https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30");
+  background-size: cover;
+  background-blend-mode: darken;
   height: 80vh;
   position: relative;
 }
