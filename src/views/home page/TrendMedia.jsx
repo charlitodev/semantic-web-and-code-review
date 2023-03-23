@@ -22,7 +22,7 @@ const TrendMedia = ({ poster, isNetflixShow }) => {
           className={`${isHovered && `card__hover`}`}
           src={poster}
           alt="sample"
-          style={{ height: "200px" }}
+          style={{ height: "150px" }}
         />
 
         {isNetflixShow && (

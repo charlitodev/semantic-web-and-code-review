@@ -52,3 +52,54 @@ export const mediaData = [
       "Lorem ipsum dolor lorem ipsum dolor  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
   },
 ];
+
+export const rankingPosters = [
+  {
+    id: 1,
+    title: "Mad Max",
+    mediaPoster: "https://pbs.twimg.com/media/Ec_7SzOUEAAuGit.jpg:large",
+    mediaDescription:
+      "Lorem ipsum dolor lorem ipsum dolor  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+    isNetflixShow: true,
+  },
+  {
+    id: 2,
+    title: "Star wars",
+    mediaPoster:
+      "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQThsB03pbw5vcIx6r3G-Q6BbJ0lp8ukajvWye5b7b38B-5fwKu6dcbPm5vohzOwS_HFF2L0AcdvR43I6bwtDGNH1eYU70dv4wEdVdelqy5lik5krQgmAtCBuK9o4vau57QBFfFUPLy2Tvfyq2CMuLtmu.jpg?r=4bf",
+    mediaDescription:
+      "A space opera set “a long time ago in a galaxy far, far away,” the film centres on Luke Skywalker (played by the then relatively unknown Mark Hamill), a young man who finds himself embroiled in an interplanetary war between an authoritarian empire and rebel forces.",
+  },
+  {
+    id: 3,
+    title: "Nightmare Alley",
+    mediaPoster:
+      "https://static.dezeen.com/uploads/2017/09/stranger-things-season-two-netflix-poster-design-graphics.jpg",
+    mediaDescription:
+      "Lorem ipsum dolor lorem ipsum dolor  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+  },
+  {
+    id: 4,
+    title: "Land of Mine",
+    mediaPoster:
+      "https://cdnb.artstation.com/p/assets/images/images/028/663/215/large/mateus-caetano-propaganda-final-english.jpg?1595144092",
+    mediaDescription:
+      "Lorem ipsum dolor lorem ipsum dolor  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+  },
+  {
+    id: 5,
+    title: "No Time to Die",
+    mediaPoster:
+      "https://magarila.com/wp-content/uploads/2022/07/%E2%80%98Carter-Poster.jpeg",
+    mediaDescription:
+      "Lorem ipsum dolor lorem ipsum dolor  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+  },
+  {
+    id: 6,
+    title: "Dune",
+    mediaPoster:
+      "https://www.vitalthrills.com/wp-content/uploads/2021/07/duning5.jpg.webp",
+    mediaDescription:
+      "Lorem ipsum dolor lorem ipsum dolor  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor",
+  },
+];

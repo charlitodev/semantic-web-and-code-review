@@ -8,7 +8,9 @@ const Navbar = () => {
         <img src={companyData.navLogo} />
         <div className="nav__links_container">
           <ul>
-            <li>Home</li>
+            <li>
+              <b>Home</b>
+            </li>
             <li>TV Shows</li>
             <li>Movies</li>
             <li>News & Popular</li>

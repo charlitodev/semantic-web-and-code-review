@@ -1,5 +1,5 @@
 import React from "react";
-import { mediaData } from "../../configs/indexData";
+import { rankingPosters } from "../../configs/indexData";
 import TrendMedia from "./TrendMedia";
 
 const PopularMedia = () => {
@@ -7,7 +7,7 @@ const PopularMedia = () => {
     <section>
       <h2>Popular in Netflix</h2>
       <ul>
-        {mediaData.map((item) => {
+        {rankingPosters.map((item) => {
           return <TrendMedia key={item.id} poster={item.mediaPoster} />;
         })}
       </ul>

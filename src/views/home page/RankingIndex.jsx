@@ -1,14 +1,14 @@
 import React from "react";
 import RankingMedia from "./RankingMedia";
-import { mediaData } from "../../configs/indexData";
+import { mediaData, rankingPosters } from "../../configs/indexData";
 
 const RankingIndex = () => {
   return (
     <>
       <section className="ranking__section">
-        <h2>Top 10 Movies in Australia Today</h2>
+        <h2 style={{ marginTop: "5em" }}>Top 10 Movies in Australia Today</h2>
         <ul>
-          {mediaData.map((item) => {
+          {rankingPosters.map((item) => {
             return (
               <div key={item.id} className="ranking__container">
                 <h1>{item.id}</h1>

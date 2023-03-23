@@ -37,7 +37,7 @@ body {
 
 .nav__links_container ul li {
   list-style-type: none;
-  margin: 0 1.5em;
+  margin: 0 0.8em;
 }
 
 .nav__left__panel {
@@ -82,19 +82,22 @@ body {
     url("https://i0.wp.com/www.heyuguys.com/images/2015/10/star-wars-the-force-awakens-poster-landscape.jpg?fit=1536%2C864&ssl=1");
   background-size: cover;
   background-blend-mode: darken;
-  height: 80vh;
+  height: 90vh;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .new__release {
   position: absolute;
-  bottom: 0;
-  margin-bottom: 4em;
+  bottom: -10em;
+  margin-bottom: 8em;
 }
 
 .hero__container {
-  padding: 0 4vw;
-  padding-top: 10em;
+  padding: 3em 4vw;
+
   width: 500px;
 }
 
@@ -104,6 +107,21 @@ body {
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+}
+
+.rating__container {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.rating__container i {
+  margin-right: 1em;
+}
+
+.rating__container p {
+  background-color: rgba(81, 81, 81, 0.431);
+  padding: 1em 4em;
 }
 
 .button__container {
@@ -121,18 +139,19 @@ body {
 
 .movie__description {
   margin: 1em 0;
+  line-height: 1.5em;
 }
 
 /* ************************************** */
 
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 section {
   padding: 0 4vw;
-  margin-top: 4em;
+  margin-top: 5em;
 }
 
 section ul {
@@ -209,7 +228,7 @@ section ul li img {
 .card__hover {
   display: block;
   transform: scale(1.1);
-  z-index: 2;
+  z-index: 1;
 }
 
 /* ************************************** */
@@ -230,25 +249,26 @@ section ul li img {
 }
 
 .ranking__section ul h1 {
-  font-size: 12em;
+  font-size: 17em;
   position: absolute;
-  right: 1.5em;
+  right: 0.9em;
+  top: -0.1em;
   z-index: -1;
   color: #0e0e0e;
-  -webkit-text-stroke: 3px rgb(109, 109, 109);
+  -webkit-text-stroke: 2px rgb(109, 109, 109);
 }
 
 .card__ranking {
   display: none;
   background-color: rgb(15, 15, 15);
-  width: 215px;
+  width: 200px;
   padding: 0.5em;
   position: absolute;
 }
 
 .ranking__section ul li img {
-  width: 210px;
-  height: 200px;
+  width: 200px;
+  height: 225px;
   object-fit: cover;
   border-radius: 5px;
   margin-right: 6em;
@@ -297,7 +317,8 @@ section ul li img {
 /* responsiveness */
 
 @media screen and (max-width: 1175px) {
-  .nav__links_container ul {
+  .nav__links_container ul,
+  .rating__container {
     display: none;
   }
 }
