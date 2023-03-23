@@ -1,6 +1,6 @@
 import React from "react";
 import RankingMedia from "./RankingMedia";
-import { movieData } from "../../data/indexData";
+import { mediaData } from "../../configs/indexData";
 
 const RankingIndex = () => {
   return (
@@ -8,11 +8,11 @@ const RankingIndex = () => {
       <section className="ranking__section">
         <h2>Top 10 Movies in Australia Today</h2>
         <ul>
-          {movieData.map((item) => {
+          {mediaData.map((item) => {
             return (
               <div key={item.id} className="ranking__container">
                 <h1>{item.id}</h1>
-                <RankingMedia />
+                <RankingMedia poster={item.mediaPoster} />
               </div>
             );
           })}
@@ -21,11 +21,11 @@ const RankingIndex = () => {
       <section className="ranking__section">
         <h2>Top 10 Tv Shows in Australia Today</h2>
         <ul>
-          {movieData.map((item) => {
+          {mediaData.map((item) => {
             return (
               <div key={item.id} className="ranking__container">
                 <h1>{item.id}</h1>
-                <RankingMedia />
+                <RankingMedia poster={item.mediaPoster} />
               </div>
             );
           })}

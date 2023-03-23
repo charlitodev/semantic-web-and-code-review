@@ -1,5 +1,5 @@
 import React from "react";
-import { companyData } from "../../data/indexData";
+import { companyData } from "../../configs/indexData";
 
 const Navbar = () => {
   return (

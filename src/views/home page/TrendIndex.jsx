@@ -1,14 +1,20 @@
 import React from "react";
 import TrendMedia from "./TrendMedia";
-import { movieData } from "../../data/indexData";
+import { mediaData } from "../../configs/indexData";
 
 const TrendIndex = () => {
   return (
     <section className="new__release">
       <h2>New Releases</h2>
       <ul>
-        {movieData.map((item) => {
-          return <TrendMedia key={item.id} />;
+        {mediaData.map((item) => {
+          return (
+            <TrendMedia
+              key={item.id}
+              poster={item.mediaPoster}
+              isNetflixShow={item.isNetflixShow}
+            />
+          );
         })}
       </ul>
     </section>

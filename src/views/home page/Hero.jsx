@@ -4,13 +4,13 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="hero__container">
-        <h1>Downtown Abbey</h1>
-        <p>No. 5 in Movies Today</p>
+        <h1>Star Wars</h1>
+        <p>No. 2 in Movies Today</p>
         <p className="movie__description">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          A space opera set “a long time ago in a galaxy far, far away,” the
+          film centres on Luke Skywalker (played by the then relatively unknown
+          Mark Hamill), a young man who finds himself embroiled in an
+          interplanetary war between an authoritarian empire and rebel forces.
         </p>
         <div className="button__container">
           <button className="hero__play__button">

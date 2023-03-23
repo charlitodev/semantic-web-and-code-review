@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const RankingMedia = () => {
+const RankingMedia = ({ poster }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -18,10 +18,7 @@ const RankingMedia = () => {
       onMouseLeave={handleMouseLeave}
     >
       <div>
-        <img
-          src="https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30"
-          alt="sample"
-        />
+        <img src={poster} alt="sample" />
       </div>
       <div className={`card__ranking ${isHovered && `card__ranking__hover`}`}>
         <div className="header__cta">

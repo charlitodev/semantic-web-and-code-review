@@ -9,6 +9,7 @@ body {
   color: #fff;
   background-color: rgb(18, 18, 18);
   overflow-x: hidden;
+  font-weight: lighter;
 }
 
 /* Navbar */
@@ -26,8 +27,8 @@ body {
   align-items: center;
 }
 
-.nav .nav__right__panel img {
-  width: 150px;
+.nav__right__panel img {
+  width: 100px;
 }
 
 .nav__links_container ul {
@@ -41,7 +42,7 @@ body {
 
 .nav__left__panel {
   display: flex;
-  align-self: center;
+  align-items: center;
 }
 
 .nav__left__panel img {
@@ -54,7 +55,9 @@ body {
 }
 
 .nav__icon {
-  font-size: 1.5em;
+  font-size: 1.2em;
+
+  margin: 0 0.5em;
 }
 
 .nav__badge {
@@ -76,7 +79,7 @@ body {
       rgb(20, 20, 20) 0%,
       transparent 100%
     ),
-    url("https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30");
+    url("https://i0.wp.com/www.heyuguys.com/images/2015/10/star-wars-the-force-awakens-poster-landscape.jpg?fit=1536%2C864&ssl=1");
   background-size: cover;
   background-blend-mode: darken;
   height: 80vh;
@@ -143,6 +146,15 @@ section ul li {
 
 .img {
   width: 300px;
+  position: relative;
+}
+
+.netflix__logo {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 30px;
+  margin: 1.5em 0.5em;
 }
 
 section ul li img {
@@ -173,7 +185,7 @@ section ul li img {
 
 .header__cta div i {
   margin-right: 0.5em;
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
 
 .info div {
@@ -182,11 +194,12 @@ section ul li img {
 }
 
 .info {
-  margin: 0.2em 0;
+  margin: 0.5em 0.3em;
 }
 
 .info .match {
   border: 2px solid rgb(73, 73, 73);
+  padding: 1px 2px;
 }
 
 .tags span {
@@ -196,7 +209,7 @@ section ul li img {
 .card__hover {
   display: block;
   transform: scale(1.1);
-  z-index: 1;
+  z-index: 2;
 }
 
 /* ************************************** */

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const TrendMedia = () => {
+const TrendMedia = ({ poster, isNetflixShow }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -20,9 +20,19 @@ const TrendMedia = () => {
       <div className="img">
         <img
           className={`${isHovered && `card__hover`}`}
-          src="https://preview.redd.it/atyf1poo8oe31.jpg?auto=webp&s=d28749798085f4b4947e99c167dc3b2ab1f04e30"
+          src={poster}
           alt="sample"
+          style={{ height: "200px" }}
         />
+
+        {isNetflixShow && (
+          <img
+            className="netflix__logo"
+            src={
+              "https://img.icons8.com/external-tal-revivo-filled-tal-revivo/256/external-netflix-an-american-video-on-demand-service-logo-filled-tal-revivo.png"
+            }
+          />
+        )}
       </div>
       <div className={`card ${isHovered && `card__hover`}`}>
         <div className="header__cta">
