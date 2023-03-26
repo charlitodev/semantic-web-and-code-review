@@ -1,17 +1,13 @@
-import { Navbar, Footer } from "./components";
-import { Hero, TrendIndex, RankingIndex, PopularMedia } from "./views";
+import { Footer } from "./components";
+import { Hero, MediaContainer } from "./views";
 
-import "./assets/styles/styles.css";
+import "./styles/style.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Hero />
-      <TrendIndex />
-      <RankingIndex />
-      <PopularMedia />
-
+      <MediaContainer />
       <Footer />
     </div>
   );

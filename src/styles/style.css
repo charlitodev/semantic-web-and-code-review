@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+  overflow-x: hidden;
+  background-color: rgb(16, 16, 16);
+}
+
+.nav {
+  color: #fff;
+  padding: 0.3em 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right__panel {
+  display: flex;
+  align-items: center;
+}
+
+.right__panel img {
+  width: 150px;
+}
+
+.right__panel ul {
+  display: flex;
+}
+
+.right__panel ul li {
+  margin: 0 1em;
+  list-style-type: none;
+}
+
+.left__panel ul {
+  align-items: center;
+}
+
+.left__panel ul li {
+  list-style-type: none;
+  margin: 0 0.5em;
+}
+
+.left__panel ul li i {
+  font-size: 1em;
+}
+
+.left__panel ul li img {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.left__panel ul {
+  display: flex;
+}
+
+.fa-bell {
+  position: relative;
+}
+
+.fa-bell span {
+  position: absolute;
+  top: -1em;
+  left: 0.5em;
+  background-color: red;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+/* hero */
+.hero {
+  background-image: linear-gradient(to top, rgba(20, 20, 20, 0.327) 0%, transparent 100%), url("https://variety.com/wp-content/uploads/2023/03/The-Magicians-Elephant.jpg?w=1000");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 85vh;
+}
+
+.hero__container {
+  margin-top: 7em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.hero__right__panel {
+  color: #fff;
+  width: 500px;
+  padding-left: 2em;
+}
+
+.hero__right__panel p {
+  margin: 0.5em 0;
+}
+
+.hero__right__panel img {
+  width: 250px;
+}
+
+.hero__left__panel i {
+  margin-right: 1em;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+.hero__left__panel span {
+  color: #fff;
+  border-left: 2px solid #fff;
+  padding: 1em 2em;
+  background-color: rgba(117, 117, 117, 0.474);
+}
+
+.cta__play {
+  margin-right: 1em;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.8em 2em;
+  border-radius: 5px;
+}
+
+.cta__more__info {
+  margin-right: 1em;
+  background-color: rgb(115, 115, 115);
+  border: none;
+  padding: 0.8em 2em;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* media */
+.media__container {
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.media__container__parent {
+  padding-left: 2em;
+  margin: 2em 0;
+}
+
+.media__container__parent h3 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.media__container__child {
+  margin-right: 0.5em;
+}
+
+.opacity {
+  display: none;
+}
+
+.media__landscape__container__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 200px;
+  width: 350px;
+  z-index: 1;
+  display: block;
+  transform: scale(1.1);
+  position: absolute;
+}
+
+.card {
+  display: none;
+}
+
+.card__onHover {
+  background-color: rgb(33, 33, 33);
+  padding: 0.5em;
+  color: rgb(220, 220, 220) !important;
+  height: 100px;
+  width: 350px;
+  position: absolute;
+  transform: scale(1.1);
+  z-index: 100;
+  transition: transform 1s;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+
+.card__header i {
+  margin-right: 0.5em;
+  border: 1px solid #fff;
+  padding: 0.3em 0.4em;
+  border-radius: 60%;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fa-play {
+  background-color: #fff;
+  color: #222222 !important;
+}
+
+.card__details small {
+  font-size: 0.7em;
+  margin-bottom: 1em;
+}
+
+.MA {
+  border: 1px solid #fff;
+  padding: 0.2em 0.3em;
+  margin-right: 1em;
+}
+
+.HD {
+  margin-left: 0.5em;
+  border: 1px solid #fff;
+  padding: 0.2em 0.3em;
+}
+
+.genres ul {
+  margin-top: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.genres ul li {
+  margin-right: 0.5em;
+  list-style-type: none;
+  font-size: 0.8em;
+}
+
+.ranking__number__parent {
+  position: relative;
+  margin-right: 5em;
+}
+
+.ranking__number {
+  font-size: 14em;
+  -webkit-text-stroke: 3px rgba(169, 169, 169, 0.264);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-animation: fill 0.5s infinite alternate;
+  position: absolute;
+  left: -0.2em;
+  z-index: -1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 10em 0;
+  padding: 0 4vw;
+  flex-wrap: wrap;
+  color: #484848;
+}
+
+.socials i {
+  margin-right: 10px;
+  font-size: 2em;
+}
+
+.col {
+  margin-right: 5em;
+}
+
+.col ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.col button {
+  background: none;
+  border: 2px solid rgb(55, 55, 55);
+  color: #fff;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+.img {
+  width: 300px;
+  height: 150px;
+}
+
+.img__ranking {
+  width: 150px;
+  height: 175px;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 5em;
+}
+
+@media screen and (max-width: 1125px) {
+  .right__panel ul li,
+  .hero__left__panel {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
